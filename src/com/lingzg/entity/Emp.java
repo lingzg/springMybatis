@@ -1,10 +1,12 @@
 package com.lingzg.entity;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 public class Emp implements Serializable {
 
+	private static final long serialVersionUID = -6315153280634003686L;
+	
 	//MyBatis在查询之后，可以自动将结果集中
 	//的数据封装到实体对象中，它默认按照字段
 	//与属性同名的规则来封装。
